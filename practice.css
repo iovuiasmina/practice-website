@@ -1,0 +1,539 @@
+.searchbar {
+    width:580px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    border-width: 1px;
+    margin-left: 635px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px rgb(199, 192, 192);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    display: block;
+}
+.thumbnail {
+    width: 300px;
+    display: block;
+    margin-left: 780px;
+    margin-top: 20px;
+}
+.textbox {font-family: Verdana;
+    width:300px;
+    background-color: rgba(228, 227, 227, 0.945);
+    display: block;
+    color: grey;
+    margin-top: 5px;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+}
+button {
+    font-family: Verdana;
+    background-color: black;
+    color: rgba(228, 227, 227, 0.945);
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 1s, color 1s;
+}
+.later {
+    background-color: rgba(228, 227, 227, 0.945);
+    color: black;
+    margin-left: 12px;
+    margin-top: 18px;
+}
+.now {
+    margin-top: 18px;
+    transition: margin-top 1s;
+}
+.now:hover {
+    background-color: rgba(228, 227, 227, 0.945);
+    color: black;
+    margin-top: 34px;
+
+}
+.later:hover {
+    background-color: black;
+    color:rgba(228, 227, 227, 0.945);
+}
+.subtitle {
+    font-family: Verdana;
+    font-size: 25px;
+}
+.profile_1 {
+    border: none;
+    border-radius: 6px;
+    width: 400px;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 5px grey;
+    margin-top: 12px;
+}
+.profile_1_pic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    vertical-align: middle;
+    display: inline-block;
+}
+.profile_1_text {
+    color: rgb(151, 150, 150);
+    margin-left: 4px;
+    vertical-align: middle;
+    font-family: Verdana;
+    display: inline-block;
+}
+.profile_1_button {
+    border: none;
+    background-color: rgb(97, 154, 240);
+    color: white;
+    border-radius: 16px;
+    vertical-align: middle;
+    display: inline-block;
+    transition: box-shadow 1s;
+    margin-left: 105px;
+    font-weight: bold;
+    font-family: Arial;
+}
+.profile_1_button:hover {
+    box-shadow: 2px 2px 5px grey;
+}
+.facebook-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.facebook {
+    border: none;
+    border-radius: 4px;
+    margin-top: 12px;
+    box-shadow: 0px 0px 5px grey;
+    display: inline-block;
+    width: 215px;
+    height: 365px;
+}
+.fb-pic {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 215px;
+    height: 240px;
+    border: none;
+}
+.fb-user {
+    font-family: Arial;
+    margin-left: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    margin-top: 7px;
+}
+.fb-com {
+    font-family: Verdana;
+    margin-left: 8px;
+    font-size: 14px;
+    color: rgb(139, 137, 137);
+    margin-bottom: 14px;
+    margin-top: 9px;
+}
+.fb-add {
+    
+    margin-top: 7px;
+    margin-left: 8px;
+    border: none;
+    background-color: rgb(55, 127, 235);
+    color: white;
+    transition: box-shadow 1s;
+    border-radius: 4px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.fb-add:hover {
+    box-shadow: 2px 2px 5px grey;
+}
+.container {
+    display: inline-block;
+    border: none;
+}
+.container-pic {
+    display: inline-block;
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.container1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+.container2 {
+    display: inline-block;
+    vertical-align: middle;
+}
+.container2-button {
+    margin-top: 7px;
+    margin-left: 8px;
+    border: none;
+    background-color: rgb(55, 127, 235);
+    color: white;
+    transition: box-shadow 1s;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin-left: 100px;
+}
+p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.try {
+    border: solid;
+    margin-top: 12px;
+    width: 300px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.text {
+    vertical-align: middle;
+}
+div {
+    font-family: Arial;
+  }
+  
+  .container {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    width: 300px;
+    border-radius: 6px;
+  }
+  
+  .flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+  .notifications {
+    background-color: rgb(49, 109, 245);
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: solid;
+    border-width: 1px;
+    margin-top: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: Verdana, Calibri;
+    background-color: rgb(175, 98, 175);
+    color: white;
+    border-radius: 6px;
+  }
+  .profile_ex_text {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 16px;
+    margin-left: 6px;
+    font-family: Arial;
+  }
+  .follow {
+    margin-top: 12px;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 6px;
+    border: none;
+    padding-top: 16px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+  .profile_ex_text_1 {
+    font-weight: bold;
+  }
+  .profile_ex_text_2 {
+    color: rgb(145, 144, 144);
+  }
+  .human {
+    flex: 1;
+    max-width: 700px;
+  }
+  .user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  .searchbar-1 {
+    flex: 1;
+    max-width: 600px;
+    min-width: 200px;
+    height: 25px;
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    box-shadow: 0px 0px 5px gray;
+    border: none;
+    border-radius: 20px;
+  }
+  .inbox {
+    border: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-top: 20px;
+  }
+  .info {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+  }
+  .info-pic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+  }
+  .info-text {
+    margin-left: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-right: 8px;
+    margin-right: 8px;
+    flex: 1;
+
+  }
+  .time {
+    margin-top: 0px;
+    width: 60px;
+    margin-right: 6px;
+  }
+  .twitter {
+    border: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-top: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  .account {
+    height: 40px;
+    margin-left: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+  }
+  .account-text {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .yt {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
+  .grey-shape {
+    height: 70px;
+    width: 0;
+    flex:1;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+  .yt-text {
+    flex: 15;
+    width: 0;
+    border: solid;
+    height: auto;
+    border-width: 1px;
+    border-color: rgb(180, 178, 178);
+  }
+  .yt-video {
+    max-width: 500px;
+    height: auto;
+    margin-top: 12px;
+    border: none;
+    box-shadow: 0px 0px 3px gray;
+    transition: opacity 1s;
+    cursor: pointer;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  .yt-video:hover {
+    opacity: 0.7;      
+  }
+  .yt-info {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+  }
+  .yt-info-text {
+    margin-left: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .yt-video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  .shop {
+    margin-top: 12px;
+    width: 720px;
+    height: 404px;
+    position: relative;
+  }
+  .shop_percentage {
+    position: absolute;
+    top: 18px;
+    right: 0;
+    background-color: white;
+    padding-left: 16px;
+    padding-right: 3px;
+    font-family: Quicksand, Calibri;
+    font-size: 22px;
+  }
+  .bottom_bar {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 150px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.507);
+    z-index: 1;
+    align-items: center;
+  }
+  .shop_button {
+    color: white;
+  }
+  .anunt {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .yt-clip {
+    position: relative;
+  }
+  .yt-clip:hover .anunt {
+    opacity: 1.5;
+  }
+  .anunt:active {
+    opacity: 1;
+  }
+  .shop-item {
+    margin: 20px 0;
+    position: relative;
+    width: 517px;
+  }
+  .hover1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .hover1:hover {
+    opacity: 0.5;
+  }
+  .shop-item-button {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 517px;
+    height: 657px;
+    opacity: 0;
+  }
+  .shop-item-button:hover {
+    opacity: 1;
+  }
+  .shop-item-button div {
+    background-color: rgb(44, 138, 7);
+    color: rgb(29, 27, 27);
+    font-weight: 600;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    left: 35%;
+    font-size: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+  }
+  .percentage {
+    position: absolute;
+    background-color: red;
+    top: 12px;
+    left: 0;
+    color: white;
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+  }
