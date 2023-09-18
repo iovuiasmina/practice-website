@@ -496,12 +496,13 @@ div {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: black;
+    opacity: 0;
     z-index: 1;
-    transition: background-color 1s;
+    transition: opacity 1s;
   }
   .hover1:hover {
-    background-color: rgba(0, 0, 0, 0.158);
+    opacity: 0.5;
   }
   .shop-item-button {
     position: absolute;
